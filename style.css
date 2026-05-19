@@ -1,0 +1,165 @@
+/* https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff */
+
+:root {
+    --mid-pink: #ff9dc1;
+    --soft-pink: #FFC8DD;
+    --super-soft-pink: #ffdeeb;
+    --bright-pink: #ff5593;
+    --soft-white: #fff6f9;
+    --hover-pink: #f77ba8;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin-top: 115px;
+    background-color: var(--super-soft-pink);
+    color: var(--bright-pink);
+}
+
+p a, li a, a {
+    color: var(--bright-pink);
+}
+
+nav {   
+    background-color: var(--soft-pink);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    padding-left: 20px;
+    align-items: center;
+    column-gap: 20px;
+    font-family: "Varela Round";
+}
+
+.page-link {    
+    font-size: 30px;
+    font-weight: 650;
+    font-family: "Varela Round";
+    text-decoration: none;
+    color: var(--soft-white);
+}
+
+.page-button {
+    background-color: var(--mid-pink);
+    border-radius:8px;
+    box-shadow: inset 0 4px 8px 0 var(--mid-pink), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    padding: 10px;
+    box-shadow: inset 0 0 0 5px var(--bright-pink);
+    border-style: none;
+}
+
+.page-button:hover {
+    background-color: var(--hover-pink);
+    transform: scale(1.02);
+}
+
+.page-button:active {
+    background-color: var(--bright-pink);
+}
+
+.website-title {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Varela Round";
+    text-decoration: none;
+    color: var(--soft-white);
+    cursor: default;
+}
+
+.title-box {
+    background-color: var(--bright-pink);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#content {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+#content {
+    font-family: "Varela Round";
+}
+
+#content p, li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.content-box {
+    display: flex;
+    column-gap: 20px;
+    margin-right: 20px;
+}
+
+.content-text-box p {
+    margin: 0;
+}
+
+.content-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-image-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.content-image-box img {
+    width: 710px;
+}
+
+img.roadmap {
+    width: 700px;
+    height: 875px;
+    border: 5px solid var(--bright-pink);
+}
+
+.youtube-video-embed {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
+
+.study-wakaranai-boy {
+    width: 710px;
+}
+
+img.medium-image {
+    width: 300px;
+}
+
+img.smaller-image {
+    width: 200px;
+}
+
+
+img.tae-kim-guide {
+    width: 295px;
+}
